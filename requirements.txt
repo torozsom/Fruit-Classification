@@ -1,0 +1,24 @@
+# Requirements for the project if you only want cpu support
+
+torch
+torchvision
+pillow
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+jupyter
+
+
+#------------------------------------------------------------
+
+
+# Requirements for the project if you want cuda support
+# for the following versions: SM 5.0 → 9.0 AND RTX 50-series SM 12.0
+
+# After running pip install -r requirements.txt run the following commands:
+# Uninstall the cpu versions first:
+# pip uninstall torch torchvision
+# Then install the cuda versions:
+# pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu130
